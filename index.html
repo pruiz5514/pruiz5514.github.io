@@ -1,2 +1,267 @@
-<h1>Melo<h1/>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticketswap</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/8c1fe39e3a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <section class="nav-left">
+                <img src="./img/ticketi2.png" alt="">
+            </section>
+            <section class="nav-right">
+                <img src="./img/burger.jpg" alt="">
+            </section>
+        </nav>
+        <section class="header--tilte-container">
+            <h1>The safest way to buy and sell tickets</h1>
+        </section>
+        <section class="header--input">
+            <div class="header--input-container">
+                <span></span>
+                <input type="text" placeholder="Search for an event, artist, venue or city">
+            </div>
+        </section>
+    </header>
+    <main>
+        <section class="main--reasons">
+            <div class="main--reasons-container">
+                <ul>
+                    <li><span></span>The safest way to buy and sell tickets with over 10 million fans</li>
+                    <li><span></span>Prices are capped at 120% of the original price</li>
+                    <li><span></span>Primary tickets from over 6000 partnered events</li>
+                </ul>
+            </div>
+            <div class="main--recommedations-container">
+                    <p>You're seeing recommendations for</p>
+                    <div class="main--select-container">
+                        <select>
+                            <option value="Nearby" selected class="nearby">Nearby</option>
+                            <option value="Amsterdam" class="city">Liverpool</option>
+                            <option value="Budapest" class="city">Budapest</option>
+                            <option value="London" class="city">London</option>
+                            <option value="Barcelona" class="city">Barcelona</option>
+                            <option value="Cerete" class="city">Cerete</option>
+                            <option value="other" class="nearby">Other city</option>
+                        </select>
+                        <i class="fa-solid fa-chevron-down"></i>              
+            </div>
+        </section>
+        
+        <section class="main--events">
+            <h2 class="events-title">Browse events</h2>
+            <section class="events-cards-container">
+                <article class="events-cards--details">
+                    <div class="events-cards--details_left">
+                        <span class="today"></span>
+                    </div>
+                    <div class="events-cards--details_right">
+                        <h2>Today</h2>
+                        <p>Find gigs nearby for your spontaneous plans</p>
+                    </div>
+                </article>
+                <article class="events-cards--details">
+                    <div class="events-cards--details_left">
+                        <span class="weekend"></span>
+                    </div>
+                    <div class="events-cards--details_right">
+                        <h2>This weekend</h2>
+                        <p>Explore upcoming events on Friday, Saturday & Sunday</p>
+                    </div>
+                </article>
+                <article class="events-cards--details">
+                    <div class="events-cards--details_left">
+                        <span class="anytime"></span>
+                    </div>
+                    <div class="events-cards--details_right">
+                        <h2>Anytime, anywhere, any style</h2>
+                        <p>Chosose by date, location or category</p>
+                    </div>
+                </article>
+            </section>
+        </section> 
 
+        <section class="main--picks">
+            <h2 class="picks-title">Our top picks</h2>
+            <section class="picks-container--slider">
+                <a href="">
+                    <article class="picks-container--buttom">
+                        <div class="picks-buttom--up">
+                            <img src="./img/elrow.png" alt="">
+                        </div>
+                        <div class="picks-buttom--down">
+                            <h3>Elrow Town London 2023</h3>
+                            <p>elrow return to London for the 2023 edition of elrow Town.</p>
+                        </div>
+                    </article>
+                </a>
+                <a href="">
+                    <article class="picks-container--buttom">
+                        <div class="picks-buttom--up">
+                            <img src="./img/todd.png" alt="">
+                        </div>
+                        <div class="picks-buttom--down">
+                            <h3>Todd In The Hole Festival 2023</h3>
+                            <p>A family friendly festival in the heart of the Hertfordshire countryside.</p>
+                        </div>
+                    </article>
+                </a>
+                <a href="">
+                    <article class="picks-container--buttom">
+                        <div class="picks-buttom--up">
+                            <img src="./img/noisly.png" alt="">
+                        </div>
+                        <div class="picks-buttom--down">
+                            <h3>Noisly Festival Of Music And Arts 2023</h3>
+                            <p>Rooted in the underground electronic music.</p>
+                        </div>
+                    </article>
+                </a>
+            </section>
+        </section>
+
+        <section class="main-locations-container">
+            <h2 class="locations-title">Locations</h2>
+            <p class="locations-paragraph">Popular event locations.</p>
+            <section class="locations--images-container">
+                <a href="#">
+                    <article class="ziggo">
+                        <h4>Ziggo Dome</h4>
+                    </article>
+                </a>
+                <a href="#">
+                    <article class="budapest">
+                        <h4>Budapest Park</h4>
+                    </article>
+                </a>
+                <a href="#">
+                    <article class="antwerps">
+                        <h4>Antwerps Sport paleis</h4>
+                    </article>
+                </a>
+                <a href="#">
+                    <article class="arena">
+                        <h4>3Arena</h4>
+                    </article>
+                </a>
+                <a href="#">
+                    <article class="tele">
+                        <h4>Tele2 Arena</h4>
+                    </article>
+                </a>
+                <a href="#">
+                    <article class="bootshaus">
+                        <h4>Bootshaus</h4>
+                    </article>
+                </a>
+            </section>
+        </section>
+
+        <section class="main-categories">
+            <h2>Categories</h2>
+            <p>Find events by category.</p>
+
+            <section class="main-categories--container">
+                <a href="">
+                    <article class="main-categories--details">
+                        <span class="festivals"></span>
+                        <h4>Festivals</h4>
+                    </article>
+                </a>
+                <a href="">
+                    <article class="main-categories--details">
+                        <span class="concerts"></span>
+                        <h4>Concerts</h4>
+                    </article>
+                </a>
+                <a href="">
+                    <article class="main-categories--details">
+                        <span class="club"></span>
+                        <h4>Club nights</h4>
+                    </article>
+                </a>
+                <a href="">
+                    <article class="main-categories--details">
+                        <span class="sports"></span>
+                        <h4>Sports</h4>
+                    </article>
+                </a>
+                <a href="">
+                    <article class="main-categories--details">
+                        <span class="theatre"></span>
+                        <h4>Theatre & comedy</h4>
+                    </article>
+                </a>
+                <a href="">
+                    <article class="main-categories--details">
+                        <span class="vouchers"></span>
+                        <h4>Vouchers & days out</h4>
+                    </article>
+                </a>
+            </section>
+        </section>
+
+        <div class="linea-horizontal"></div>
+
+        <section class="main-medias">
+            <h3>Menu</h3>
+            <div class="medias-buttom--container">
+                <select>
+                    <option value="home" selected class="home">Home</option>
+                </select>
+                <i class="fa-solid fa-sort-down fa-2xl"></i>
+            </div>
+            <section class="medias--follow-container">
+                <h3>Follow us</h3>
+                <ul>
+                    <li><a href="">Facebook</a></li>
+                    <li><a href="">Twitter</a></li>
+                    <li><a href="">Instagram</a></li>
+                    <li><a href="">TikTok</a></li>
+                </ul>
+            </section>
+            <section class="medias--support-container">
+                <h3>Support</h3>
+                <a href="">Help & FAQs</a>
+            </section>
+            <section class="medias--works-buttom">
+                <i class="fa-solid fa-caret-right fa-2xl"></i>
+                <button class="works-button">How it works</button>
+            </section>
+        </section>
+        <section class="app-container">
+            <a href="" class="apple"></a>
+            <div class="apple-raiting">
+                <span></span>
+                <p>4.7 - 9000+ reviews</p>
+            </div>
+            <a href="" class="google"></a>
+            <div>
+                <span></span>
+                <p>4.6 - 6000+ reviews</p>
+            </div>
+        </section>
+
+        <div class="linea-horizontal"></div>
+    </main>
+
+    <footer>
+        <div class="footer--select-container">
+            <select>
+                <option value="english" selected>English</option>
+                <option value="Nederlands">Nederlands</option>
+                <option value="Francais">Francais</option>
+                <option value="Deutsch">Deutsch</option>
+                <option value="Espanol">Español</option>
+                <option value="Italiano">Italiano</option>
+                <option value="Portugues">Portugues</option>
+            </select>
+            <i class="fa-solid fa-sort-down fa-2xl"></i>
+        </div>
+    </footer>
+</body>
+</html>
